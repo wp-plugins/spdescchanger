@@ -72,7 +72,7 @@ function spDescChangerSettings(){
 		</tbody>
 	</table><br/><br/>
 	<input type="hidden" name="spDescChangerSettings" value="1" />
-	<input class="button-primary" type="submit" value="<? _e('Save Changes', 'spDescChanger'); ?>" />
+	<input class="button-primary" type="submit" value="<? _e('Save Changes'); ?>" />
 	</form>
 	<?
 }
