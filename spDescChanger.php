@@ -56,7 +56,7 @@ function spDescChangerSettings(){
 					$spDescChangerDescriptions = (empty($settings->spDescChangerDescriptions)) ? get_bloginfo('description', 'display') : $settings->spDescChangerDescriptions;
 					?>
 					<textarea id="spDescChangerDescriptions" name="spDescChangerDescriptions" rows="8" cols="60"><?= $spDescChangerDescriptions; ?></textarea>
-					<span class="description"><? _e('Every single Description in one row', 'spDescChanger'); ?></span>
+					<span class="description"><? _e('Every single description in one row', 'spDescChanger'); ?></span>
 				</td>
 			</tr>
 			<tr valign="top">
@@ -65,7 +65,7 @@ function spDescChangerSettings(){
 					<?php
 					$spDescChangerInterval = (empty($settings->spDescChangerInterval)) ? 10 : $settings->spDescChangerInterval;
 					?>
-					<input type="text" class="small-text" value="<?= $spDescChangerInterval; ?>" id="spDescChangerInterval" name="spDescChangerInterval"/><?= __('sek', 'spDescChanger'); ?>
+					<input type="text" class="small-text" value="<?= $spDescChangerInterval; ?>" id="spDescChangerInterval" name="spDescChangerInterval"/><?= __('sec', 'spDescChanger'); ?>
 					<span class="description"><? _e('In which interval the description should change', 'spDescChanger'); ?></span>
 				</td>
 			</tr>
