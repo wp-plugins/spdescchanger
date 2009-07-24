@@ -1,6 +1,6 @@
 === spDescChanger ===
 Contributors: SebastianK 
-Donate link:http://www.scriptpara.de/skripte/spdescchanger/
+Donate link: http://www.scriptpara.de/skripte/spdescchanger/
 Tags: jquery, fade, description, change
 Requires at least: 2.7
 Tested up to: 2.8.2
@@ -11,6 +11,7 @@ With this Plugin you can set several descriptions for your blog. They change ran
 == Description ==
 
 With this Plugin you can set several descriptions for your blog. They change randomized without reloading the page.
+You will find an example video on the plugin-page at http://www.scriptpara.de/skripte/spdescchanger/
 	
 == Installation ==
 
