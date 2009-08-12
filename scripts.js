@@ -5,4 +5,4 @@ function spDescChanger(descriptions, duration){
 	$('.description').html(description);
 	$('.description').fadeIn(2000);
 	window.setTimeout(function callFunc() { spDescChanger(descriptions, duration); }, newDuration);
-}
+} 
